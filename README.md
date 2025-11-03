@@ -32,7 +32,8 @@ Proyek ini dibuat sebagai **personal portfolio project** untuk menunjukkan kemam
 
 | Login Page | Dashboard (Light Mode) | Dashboard (Dark Mode) |
 |-------------|------------------------|------------------------|
-| *(tambahkan screenshot di sini)* | *(tambahkan screenshot di sini)* | *(tambahkan screenshot di sini)* |
+| <img width="1917" height="831" alt="image" src="https://github.com/user-attachments/assets/0e0b483c-699a-421b-bdb5-39dc53028faa" />
+| | *(tambahkan screenshot di sini)* |
 
 ---
 
