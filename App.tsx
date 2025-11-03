@@ -8,7 +8,6 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import type { Experience as ExperienceType, VolunteerExperience, SkillCategory, Project } from './types';
 
-// Data extracted from the CV
 const personalInfo = {
     name: "Alexander Ludwig Agu",
     title: "Information Systems & Technology Graduate | Web Developer",
@@ -72,7 +71,7 @@ const projectsData: Project[] = [
         title: "Health Track",
         description: "A responsive website for a choral society to manage events, registrations, and participant engagement, leading to increased participation.",
         tags: ["JavaScript", "HTML/CSS", "UI/UX"],
-        imageUrl: "https://picsum.photos/seed/project2/400/300",
+        imageUrl:"assets/images/Screenshot 2025-11-03 173321.jpg",
         link: "#",
     },
 ];
