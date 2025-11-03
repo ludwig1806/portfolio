@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# HealthTrack Dashboard
 
-# Run and deploy your AI Studio app
+HealthTrack Dashboard adalah aplikasi web berbasis **React + TypeScript** yang menampilkan data kesehatan pengguna dalam bentuk tabel dan grafik interaktif.  
+Proyek ini dibuat sebagai **personal portfolio project** untuk menunjukkan kemampuan di bidang **frontend development** menggunakan teknologi modern seperti **Tailwind CSS**, **Framer Motion**, dan **Recharts**.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1QeO-H5bEd9-Mg_H6UWUYCz7u5zXBdQww
+## ✨ Features
 
-## Run Locally
+- 🔐 **Login Page** – autentikasi dummy dengan validasi form dasar  
+- 📊 **Dashboard Page** – menampilkan data kesehatan dari file JSON (blood sugar, blood pressure, weight, heart rate)  
+- 🌙 **Dark Mode** – toggle tema terang/gelap dengan Tailwind  
+- 🎬 **Smooth Animations** – transisi antar halaman menggunakan Framer Motion  
+- 🔎 **Data Filtering** – filter data berdasarkan tanggal  
+- 👤 **Profile Page** – menampilkan dan mengedit informasi pengguna secara dummy  
+- 📱 **Responsive Design** – tampilan adaptif untuk desktop dan mobile  
 
-**Prerequisites:**  Node.js
+---
 
+## 🧩 Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **React + TypeScript**
+- **Tailwind CSS**
+- **Framer Motion** (animasi halaman)
+- **Recharts** (visualisasi data)
+- **React Router DOM** (navigasi antar halaman)
+- **Vite** (development environment)
+
+---
+
+## 📸 Screenshots
+
+| Login Page | Dashboard (Light Mode) | Dashboard (Dark Mode) |
+|-------------|------------------------|------------------------|
+| *(tambahkan screenshot di sini)* | *(tambahkan screenshot di sini)* | *(tambahkan screenshot di sini)* |
+
+---
+
+## ⚙️ Run Locally
+
+**Prerequisites:**  
+- Node.js (versi terbaru disarankan)
+
+```bash
+# 1. Install dependencies
+npm install
+
+# 2. Jalankan aplikasi
+npm run dev
